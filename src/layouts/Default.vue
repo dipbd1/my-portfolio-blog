@@ -28,10 +28,6 @@ export default {
 	components: {
 		Footer,
 		Header,
-		ParticlesBg: () =>
-			import("particles-bg-vue")
-				.then((m) => m.particles - bg - vue)
-				.catch(),
 	},
 	data() {
 		return {
