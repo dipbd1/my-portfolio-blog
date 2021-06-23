@@ -11,6 +11,6 @@
 footer {
   width: 100%;
   margin-top: 6rem;
-  background-color: #f5f5f5;
+  background-color: transparent;
 }
 </style>

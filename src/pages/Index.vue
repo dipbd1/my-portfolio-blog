@@ -16,10 +16,12 @@
 		<!--Start of Heading Section -->
 		<div>
 			<div class="container">
-				<div class="jumbotron animating-bg" style="padding-top: 30px; padding-bottom: 30px;">
+				<div
+					class="jumbotron animating-bg"
+					style="padding-top: 30px; padding-bottom: 30px;"
+				>
 					<b-row>
 						<b-col sm="8">
-							
 							<h1 class="pt-3">Hello, world!</h1>
 							<p>
 								I am <b>Dip Chowdhury</b>, and this is my blog and portfolio
@@ -42,13 +44,13 @@
 		<!--Start of Skills Section -->
 		<div>
 			<div class="container">
-				<div class="jumbotron">
+				<div class="jumbotron" style="background-color: rgba(110,150,210,0.3)">
 					<b-row style="justify-content:space-between">
 						<b-col
 							sm="8"
 							style="margin-bottom: 20px; border-right: 0.5px solid #333;"
 						>
-						<h2>Skills</h2>
+							<h2>Skills</h2>
 							<b-card-text style="max-width:70%">
 								I have worked with a lot of techs, but here's few of them where
 								I feel most confident.
@@ -150,8 +152,9 @@
 			</div>
 		</div>
 
+		<!--Currently at starts here -->
 		<div class="container">
-			<div class="jumbotron">
+			<div class="jumbotron" style="background-color: rgba(210,220,220,0.6)">
 				<b-row>
 					<b-col sm="8">
 						<h3>Now I am</h3>
@@ -162,7 +165,33 @@
 						</p>
 					</b-col>
 					<b-col>
-						<img class="greet-image" src="../assets/images/bs.png" />
+						<!-- <img class="greet-image" src="../assets/images/bs.png" /> -->
+
+						<div
+							class="c-glitch"
+							style="background-image: url('https://odoocdn.com/web/image/res.partner/1191772/image_512/Brain%20Station--23%20Ltd?unique=a2bc379');"
+						>
+							<div
+								class="c-glitch__img"
+								style="background-image: url('https://odoocdn.com/web/image/res.partner/1191772/image_512/Brain%20Station--23%20Ltd?unique=a2bc379');"
+							></div>
+							<div
+								class="c-glitch__img"
+								style="background-image: url('https://odoocdn.com/web/image/res.partner/1191772/image_512/Brain%20Station--23%20Ltd?unique=a2bc379');"
+							></div>
+							<div
+								class="c-glitch__img"
+								style="background-image: url('https://odoocdn.com/web/image/res.partner/1191772/image_512/Brain%20Station--23%20Ltd?unique=a2bc379');"
+							></div>
+							<div
+								class="c-glitch__img"
+								style="background-image: url('https://odoocdn.com/web/image/res.partner/1191772/image_512/Brain%20Station--23%20Ltd?unique=a2bc379');"
+							></div>
+							<div
+								class="c-glitch__img"
+								style="background-image: url('https://odoocdn.com/web/image/res.partner/1191772/image_512/Brain%20Station--23%20Ltd?unique=a2bc379');"
+							></div>
+						</div>
 					</b-col>
 				</b-row>
 			</div>
@@ -172,7 +201,7 @@
 
 		<div>
 			<div class="container">
-				<div class="jumbotron">
+				<div class="jumbotron" style="background-color: rgba(225,220,255,0.6)">
 					<b-row>
 						<b-col sm="8">
 							<h1>Proficiency</h1>
@@ -275,6 +304,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/assets/styles/glitch.scss";
 .greet-image {
 	display: block;
 	margin: auto;
@@ -396,20 +426,20 @@ circle {
 }
 
 .animating-bg {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 </style>
