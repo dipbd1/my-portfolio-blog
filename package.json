@@ -16,7 +16,8 @@
     "gridsome": "^0.7.20",
     "node-sass": "^4.13.0",
     "particles-bg-vue": "^1.3.5",
-    "sass-loader": "^7.0.0"
+    "sass-loader": "^7.0.0",
+    "vue-template-compiler": "^2.6.14"
   },
   "devDependencies": {}
 }
