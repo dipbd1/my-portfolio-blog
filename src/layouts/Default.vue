@@ -32,7 +32,7 @@ export default {
 	data() {
 		return {
 			canvasObject: {
-				height: "265vh",
+				height: "200vh",
 				zIndex: -1,
 				// top: "-100vh",
 				left: 0,
@@ -68,8 +68,5 @@ body {
 	max-width: 950px;
 	width: 90vw;
 	margin: 0 auto;
-}
-.particles-bg-canvas-self {
-	height: 100%;
 }
 </style>
