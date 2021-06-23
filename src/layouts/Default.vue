@@ -9,19 +9,29 @@
 				<Footer />
 			</div>
 		</template>
-		<Particles-bg type="fountain" :num="5" :bg="true" :canvas="canvasObject" />
+		<ClientOnly>
+			<Particles-bg
+				type="fountain"
+				:num="5"
+				:bg="true"
+				:canvas="canvasObject"
+			/>
+		</ClientOnly>
 	</div>
 </template>
 
 <script>
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { ParticlesBg } from "particles-bg-vue";
+
 export default {
 	components: {
 		Footer,
 		Header,
-		ParticlesBg,
+		ParticlesBg: () =>
+			import("particles-bg-vue")
+				.then((m) => m.particles - bg - vue)
+				.catch(),
 	},
 	data() {
 		return {
