@@ -298,7 +298,7 @@
 <script>
 export default {
 	metaInfo: {
-		title: "Gridsome starter bootstrap",
+		title: "Dip Chowdhury's Portfolio",
 	},
 };
 </script>

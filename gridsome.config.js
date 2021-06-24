@@ -1,7 +1,7 @@
 module.exports = {
   siteName: 'Dip Chowdhury',
   siteDescription: 'My Personal Potfolio and Blog Made With Gridsome and Bootstrap',
-  siteUrl: 'https://gridsome-starter-bootstrap.loke.dev',
+  siteUrl: 'https://stupefied-colden-bb7337.netlify.app/',
   plugins: [
     {
       use: '@gridsome/source-filesystem',

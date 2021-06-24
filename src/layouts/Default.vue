@@ -36,13 +36,20 @@ export default {
 	data() {
 		return {
 			canvasObject: {
-				height: "200vh",
+				// height: "200vh",
+				height: '100%',
+				width: '100%',
 				zIndex: -1,
 				// top: "-100vh",
 				left: 0,
+				position:'fixed',
 			},
 		};
 	},
+	mounted(){
+		console.log(window.innerHeight);
+		console.log(window.innerWidth);
+	}
 };
 </script>
 
@@ -63,7 +70,7 @@ body {
 #app {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #2c3e50;
+	// color: #2c3e50;
 	// margin-top: 60px;
 }
 
