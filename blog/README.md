@@ -1,3 +1,10 @@
+---
+title: Readme for site
+excerpt: Readme for this Project
+date: 2020-06-24 17:00:00 +0000
+author: Dip Chowdhury
+
+---
 <p align="center"><a href="https://gridsome-starter-bootstrap.loke.dev"><img alt="logo" width="200" src="https://gridsome-starter-bootstrap.loke.dev/logo.png" /></a></p>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/70d2a5fc-0609-467a-885e-bf9518118042/deploy-status)](https://app.netlify.com/sites/gridsome-starter-bootstrap/deploys)
