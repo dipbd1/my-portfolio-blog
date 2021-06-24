@@ -9,7 +9,8 @@ import checkIfMobile from "./mixins/checkIfMobile";
 
 export default function(Vue, { router, head, isClient }) {
 	if (process.isClient) {
-		Vue.use(require(VueParticlesBg));
+		const VueParticlesBg = require('particles-bg-vue').default;
+		Vue.use(VueParticlesBg);
 	}
 	Vue.use(BootstrapVue);
 	Vue.component("Layout", DefaultLayout);
