@@ -156,7 +156,7 @@
 		<div class="container">
 			<div class="jumbotron" style="background-color: rgba(210,220,220,0.6)">
 				<b-row>
-					<b-col sm="8">
+					<b-col sm="8" style="margin-bottom:40px">
 						<h3>Now I am</h3>
 						<p>
 							Working at Brainstation23 as a Software Engineer. It's a good
@@ -169,7 +169,7 @@
 
 						<div
 							class="c-glitch"
-							style="background-image: url('https://odoocdn.com/web/image/res.partner/1191772/image_512/Brain%20Station--23%20Ltd?unique=a2bc379');"
+							style="background-image: url('https://odoocdn.com/web/image/res.partner/1191772/image_512/Brain%20Station--23%20Ltd?unique=a2bc379');margin-left:80px;"
 						>
 							<div
 								class="c-glitch__img"
