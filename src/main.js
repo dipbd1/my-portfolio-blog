@@ -8,9 +8,9 @@ import "./assets/styles/main.scss";
 import checkIfMobile from "./mixins/checkIfMobile";
 
 export default function(Vue, { router, head, isClient }) {
-	// if (process.isClient) {
-	// 	Vue.use(VueParticlesBg);
-	// }
+	if (process.isClient) {
+		Vue.use(require(VueParticlesBg));
+	}
 	Vue.use(BootstrapVue);
 	Vue.component("Layout", DefaultLayout);
 	Vue.mixin(checkIfMobile);
