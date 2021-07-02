@@ -10,12 +10,7 @@
 			</div>
 		</template>
 		<ClientOnly>
-			<Particles-bg
-				type="fountain"
-				:num="5"
-				:bg="true"
-				:canvas="canvasObject"
-			/>
+			<Particles-bg type="cobweb" :num="40" :bg="true" :canvas="canvasObject" />
 		</ClientOnly>
 	</div>
 </template>
@@ -28,21 +23,22 @@ export default {
 	components: {
 		Footer,
 		Header,
-    // 'Particles-bg': () =>
-    //     import ('particles-bg-vue')
-    //     .then(m=> m.particles-bg)
-    //     .catch(),
+		// 'Particles-bg': () =>
+		//     import ('particles-bg-vue')
+		//     .then(m=> m.particles-bg)
+		//     .catch(),
 	},
 	data() {
 		return {
 			canvasObject: {
 				// height: "200vh",
-				height: '100%',
-				width: '100%',
+				height: "100%",
+				width: "100%",
 				zIndex: -1,
 				// top: "-100vh",
 				left: 0,
-				position:'fixed',
+				position: "fixed",
+				backgroundColor:'#C2CAD0'
 			},
 		};
 	},

@@ -10,7 +10,7 @@
         <b-navbar-nav class="ml-auto">
           <g-link class="nav--link" to="/about">About</g-link>
           <g-link class="nav--link" to="/blog">Blog</g-link>
-          <g-link class="nav--link" to="/contact">Contact</g-link>
+          <!-- <g-link class="nav--link" to="/contact">Contact</g-link> -->
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
